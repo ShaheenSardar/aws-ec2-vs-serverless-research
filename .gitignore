@@ -58,3 +58,7 @@ Thumbs.db
 *.tmp
 *.temp
 *.bak
+
+# Terraform generated plans
+*.tfplan
+*-plan.txt
