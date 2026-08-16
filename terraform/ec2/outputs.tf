@@ -7,9 +7,9 @@ output "public_ip" {
 }
 
 output "health_url" {
-  value = "http://${aws_instance.app.public_ip}/health"
+  value = aws_instance.app.public_ip != null ? "http://${aws_instance.app.public_ip}/health" : null
 }
 
 output "compute_url" {
-  value = "http://${aws_instance.app.public_ip}/compute"
+  value = aws_instance.app.public_ip != null ? "http://${aws_instance.app.public_ip}/compute" : null
 }
