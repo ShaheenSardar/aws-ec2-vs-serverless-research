@@ -1,0 +1,7 @@
+﻿workload_id,workload_name,users,spawn_rate,duration_seconds,idle_before_seconds
+F-W01,Low,5,1,60,0
+F-W02,Moderate,15,3,60,0
+F-W03,High,30,5,60,0
+F-W04,Sudden-Burst,30,30,60,0
+F-W05,Idle-to-Burst,30,30,60,300
+F-W06,Sustained,20,4,300,0

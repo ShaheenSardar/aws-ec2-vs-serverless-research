@@ -1,0 +1,3 @@
+"Workload","Architecture","Requests","Failures","FailurePct","Avg_ms","Median_ms","P95_ms","P99_ms","Min_ms","Max_ms","RPS"
+"P-W05","EC2","3102","0","0","211.03","210","280","420","97.55","747.85","53.28"
+"P-W05","Serverless","3566","21","0.589","145.92","120","330","510","96.85","692.54","60"

@@ -1,0 +1,7 @@
+﻿workload_id,workload_name,users,spawn_rate,duration_seconds,idle_before_seconds,purpose
+P-W01,Low,5,1,60,0,Baseline light workload
+P-W02,Moderate,15,3,60,0,Moderate concurrent demand
+P-W03,High,30,5,60,0,High concurrent demand
+P-W04,Sudden-Burst,50,50,60,0,Rapid arrival burst
+P-W05,Idle-to-Burst,50,50,60,300,Burst after five-minute idle period
+P-W06,Sustained,20,4,300,0,Longer continuous workload

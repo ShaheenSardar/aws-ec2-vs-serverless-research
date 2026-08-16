@@ -69,3 +69,17 @@ Before pilot experiments, the shared Locust workload was tested against both arc
 - Status: NON-FORMAL TEST — excluded from experimental results
 
 The same `load-testing/locustfile.py` is used for both architectures. Only the target host changes.
+
+### Lambda Concurrency Constraint Discovered During Pilot Calibration
+
+- Regional account concurrency quota: 10 concurrent executions
+- Unreserved concurrency: 10
+- Function reserved concurrency: not configured
+- Original P-W04 candidate: 50 users, 50 users/second
+- Original serverless P-W04 result: 405 HTTP 503 failures
+- Lambda Errors: 0
+- Lambda Throttles observed: 413
+- Maximum ConcurrentExecutions observed: 10
+- Interpretation: original burst workload reached the AWS account-level Lambda concurrency quota.
+- Action: original P-W04 retained as pilot evidence only and excluded from formal results.
+- Revised pilot candidate: P-W04R1, 30 users, 30 users/second, 60 seconds.

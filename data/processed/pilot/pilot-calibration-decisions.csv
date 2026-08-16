@@ -1,0 +1,8 @@
+﻿pilot_id,status,formal_mapping,reason
+P-W01,accepted,F-W01,Low workload calibrated
+P-W02,accepted,F-W02,Moderate workload calibrated
+P-W03,accepted,F-W03,High workload calibrated
+P-W04,excluded,,Original 50-user sudden burst reached regional Lambda concurrency quota and produced 405 HTTP 503 failures
+P-W04R1,accepted,F-W04,Calibrated sudden burst using 30 users and 30 users per second
+P-W05,accepted,F-W05,Idle-to-burst using same calibrated burst intensity after 300-second idle interval
+P-W06,accepted,F-W06,Sustained workload calibration

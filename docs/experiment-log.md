@@ -65,3 +65,32 @@ SameIterations: True
 SameResult: True
 
 Formal workload measurements have not yet begun.
+
+---
+
+## Day 1 - Pilot Workload Calibration
+
+Date: 2026-08-16
+
+Pilot calibration completed for six workload categories:
+
+- Low
+- Moderate
+- High
+- Sudden Burst
+- Idle-to-Burst
+- Sustained
+
+The original 50-user sudden-burst candidate produced HTTP 503 responses under the experimental account's Lambda concurrency quota.
+
+The burst workload was calibrated to 30 users with a spawn rate of 30 users/second.
+
+The original pilot evidence was preserved and excluded from formal results.
+
+Final formal workload definitions were frozen in:
+
+`load-testing/scenarios/formal-workloads.csv`
+
+Pilot data remains separate from formal experimental data.
+
+Status: PILOT CALIBRATION COMPLETE.
