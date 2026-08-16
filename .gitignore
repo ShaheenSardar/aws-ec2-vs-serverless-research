@@ -66,3 +66,5 @@ Thumbs.db
 
 # Terraform saved plans
 *.tfplan
+terraform/serverless/package/
+terraform/serverless/lambda_package.zip

@@ -26,3 +26,42 @@ Formal measurements must not be entered retrospectively without documentation.
 | Date | Phase | Activity | Result | Evidence |
 |------|-------|----------|--------|----------|
 
+
+---
+
+## Day 1 - Serverless Architecture Deployment Verification
+
+Date: 2026-08-16
+
+Architecture: AWS API Gateway HTTP API + AWS Lambda
+
+Region: ap-south-1
+
+Lambda runtime: Python 3.12
+
+Lambda architecture: x86_64
+
+Lambda memory: 1024 MB
+
+Provisioned concurrency: disabled
+
+### Verification Results
+
+- Serverless /health endpoint returned healthy.
+- Serverless /compute endpoint executed successfully.
+- Workload version: sha256-v1.
+- Computation iterations: 25000.
+- EC2 and Serverless workload versions matched.
+- EC2 and Serverless iteration counts matched.
+- EC2 and Serverless deterministic computation results matched.
+- Final Terraform plan reported no infrastructure drift.
+
+### Equivalence Result
+
+SameWorkloadVersion: True
+
+SameIterations: True
+
+SameResult: True
+
+Formal workload measurements have not yet begun.
