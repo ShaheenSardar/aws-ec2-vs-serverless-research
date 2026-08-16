@@ -1,29 +1,60 @@
-﻿# AWS credentials / secrets
+﻿# ============================================================
+# Terraform
+# ============================================================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl.backup
+crash.log
+crash.*.log
+
+# IMPORTANT:
+# .terraform.lock.hcl is intentionally NOT ignored.
+# It must be committed for Terraform provider reproducibility.
+
+# ============================================================
+# Credentials / Secrets
+# ============================================================
+
 .env
 .env.*
 *.pem
 *.key
+*.p12
+*.pfx
 
+# ============================================================
 # Python
-__pycache__/
-*.py[cod]
+# ============================================================
+
 .venv/
 venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
 
-# Terraform
-.terraform/
-*.tfstate
-*.tfstate.*
-.terraform.lock.hcl
-crash.log
+# ============================================================
+# Editors
+# ============================================================
 
-# Editors / OS
 .vscode/
 .idea/
+
+# ============================================================
+# Operating System
+# ============================================================
+
 .DS_Store
 Thumbs.db
 
-# Temporary files
+# ============================================================
+# Temporary Files
+# ============================================================
+
 *.tmp
 *.temp
-*.log
+*.bak
