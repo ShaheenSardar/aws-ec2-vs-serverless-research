@@ -655,11 +655,49 @@ try {
     # RUN LOCUST
     # --------------------------------------------------------
 
-    $LocustOutput = & $LocustExe `
-        @LocustArgs `
-        2>&1
+    # Locust writes normal logging information to stderr.
+    # Do not allow native stderr to become a terminating
+    # PowerShell error during the formal workload.
+    # Process validity is evaluated using:
+    #   - Locust exit code
+    #   - generated CSV evidence
+    #   - Locust exception records
+    #   - infrastructure health
 
-    $LocustExitCode = $LASTEXITCODE
+    $PreviousErrorActionPreference = $ErrorActionPreference
+
+    $NativePreferenceExists = Test-Path `
+        variable:PSNativeCommandUseErrorActionPreference
+
+    if ($NativePreferenceExists) {
+        $PreviousNativePreference =
+            $PSNativeCommandUseErrorActionPreference
+
+        $PSNativeCommandUseErrorActionPreference = $false
+    }
+
+    try {
+
+        $ErrorActionPreference = "Continue"
+
+        $LocustOutput = @(
+            & $LocustExe `
+                @LocustArgs `
+                2>&1
+        )
+
+        $LocustExitCode = $LASTEXITCODE
+    }
+    finally {
+
+        $ErrorActionPreference =
+            $PreviousErrorActionPreference
+
+        if ($NativePreferenceExists) {
+            $PSNativeCommandUseErrorActionPreference =
+                $PreviousNativePreference
+        }
+    }
 
     $RunEndUtc = Get-UtcNow
 
@@ -1025,3 +1063,4 @@ catch {
 
     throw
 }
+
