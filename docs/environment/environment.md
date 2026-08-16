@@ -45,3 +45,27 @@ The exact Terraform AWS provider version will be recorded in the committed .terr
 Infrastructure-specific identifiers such as AWS account IDs, access credentials, resource ARNs containing account identifiers, and secret values must not be included in public research evidence.
 
 Environment status: PRE-DEPLOYMENT VERIFIED
+
+## Load Testing Environment
+
+- Locust: locust 2.46.3 from E:\GKS Research\aws-ec2-vs-serverless-research\.venv\Lib\site-packages\locust (Python 3.12.10)
+- Load generator: Local Windows workstation
+- Shared workload script: load-testing/locustfile.py
+- Target architectures: AWS EC2 and AWS Lambda/API Gateway
+
+### Locust Smoke-Test Validation
+
+Before pilot experiments, the shared Locust workload was tested against both architectures.
+
+- EC2 smoke test: PASS
+- Serverless smoke test: PASS
+- Locust users: 5
+- Spawn rate: 1 user/second
+- Duration: 20 seconds
+- Endpoint: /compute
+- EC2 failures: 0
+- Serverless failures: 0
+- Purpose: tooling and endpoint validation only
+- Status: NON-FORMAL TEST — excluded from experimental results
+
+The same `load-testing/locustfile.py` is used for both architectures. Only the target host changes.
