@@ -1,0 +1,14 @@
+check,expected,actual,status
+formal_trials,36,36,PASS
+summary_groups,12,12,PASS
+architecture_comparisons,6,6,PASS
+pilot_ids_in_formal_dataset,0,0,PASS
+remaining_to_be_measured,0,0,PASS
+formal_workloads,6,6,PASS
+paper_tables_referenced,6,6,PASS
+paper_figures_referenced,7,7,PASS
+references,15,15,PASS
+major_sections,9,9,PASS
+quota_limit_not_generalized,1,1,PASS
+n3_significance_caution,1,1,PASS
+preprint_created,1,1,PASS

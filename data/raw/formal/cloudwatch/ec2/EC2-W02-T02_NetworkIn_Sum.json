@@ -1,0 +1,10 @@
+﻿{
+    "Label": "NetworkIn",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:07:00+05:00",
+            "Sum": 409967.0,
+            "Unit": "Bytes"
+        }
+    ]
+}

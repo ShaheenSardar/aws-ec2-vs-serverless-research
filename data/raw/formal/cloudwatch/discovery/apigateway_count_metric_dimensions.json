@@ -1,0 +1,28 @@
+﻿{
+    "Metrics": [
+        {
+            "Namespace": "AWS/ApiGateway",
+            "MetricName": "Count",
+            "Dimensions": [
+                {
+                    "Name": "ApiId",
+                    "Value": "os2vbs3gs0"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/ApiGateway",
+            "MetricName": "Count",
+            "Dimensions": [
+                {
+                    "Name": "Stage",
+                    "Value": "$default"
+                },
+                {
+                    "Name": "ApiId",
+                    "Value": "os2vbs3gs0"
+                }
+            ]
+        }
+    ]
+}

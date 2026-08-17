@@ -1,0 +1,30 @@
+﻿{
+    "Label": "StatusCheckFailed",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:27:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:31:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:30:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:29:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:28:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        }
+    ]
+}

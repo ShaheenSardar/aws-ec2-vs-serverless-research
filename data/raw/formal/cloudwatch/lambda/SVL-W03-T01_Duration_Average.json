@@ -1,0 +1,10 @@
+﻿{
+    "Label": "Duration",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:17:00+05:00",
+            "Average": 26.623347101157012,
+            "Unit": "Milliseconds"
+        }
+    ]
+}

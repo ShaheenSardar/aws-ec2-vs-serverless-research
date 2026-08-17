@@ -1,0 +1,10 @@
+﻿{
+    "Label": "NetworkOut",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:15:00+05:00",
+            "Sum": 1225851.0,
+            "Unit": "Bytes"
+        }
+    ]
+}

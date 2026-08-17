@@ -1,0 +1,10 @@
+﻿{
+    "Label": "5xx",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:17:00+05:00",
+            "Sum": 132.0,
+            "Unit": "None"
+        }
+    ]
+}

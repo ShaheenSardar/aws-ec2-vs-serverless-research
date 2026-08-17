@@ -1,0 +1,30 @@
+﻿{
+    "Label": "Duration",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:43:00+05:00",
+            "Average": 26.024670872678076,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:42:00+05:00",
+            "Average": 25.891400300304408,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:45:00+05:00",
+            "Average": 25.58246887748963,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:41:00+05:00",
+            "Average": 25.20615153405851,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:44:00+05:00",
+            "Average": 25.489200634710283,
+            "Unit": "Milliseconds"
+        }
+    ]
+}

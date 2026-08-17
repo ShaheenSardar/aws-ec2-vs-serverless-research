@@ -1,0 +1,20 @@
+﻿id,category,year,source,venue,primary_topic,planned_use,priority
+R01,Academic,2019,"Serverless Computing: One Step Forward, Two Steps Back","CIDR 2019","Serverless paradigm","Background; benefits and structural limitations of serverless computing",CORE
+R02,Academic,2018,"Peeking Behind the Curtains of Serverless Platforms","USENIX ATC 2018","FaaS measurement","Scalability; cold starts; resource efficiency; AWS Lambda platform behavior",CORE
+R03,Academic,2020,"Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider","USENIX ATC 2020","Production FaaS workloads","Invocation variability; burstiness; cold-start/resource-management context",CORE
+R04,Academic,2020,"Firecracker: Lightweight Virtualization for Serverless Applications","USENIX NSDI 2020","Serverless virtualization","AWS Lambda execution isolation and lightweight virtualization context",CORE
+R05,Academic,2018,"SAND: Towards High-Performance Serverless Computing","USENIX ATC 2018","FaaS performance","Startup delay; elasticity; resource efficiency",SUPPORTING
+R06,Academic,2018,"Putting the Micro Back in Microservice","USENIX ATC 2018","Cold launch","Cold-start and startup-latency motivation",SUPPORTING
+R07,Academic,2020,"Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing","USENIX ATC 2020","Performance and tail latency","Throughput; resource efficiency; tail-latency discussion",CORE
+R08,Academic,2021,"Faastlane: Accelerating Function-as-a-Service Workflows","USENIX ATC 2021","FaaS workflow latency","Function-interaction and workflow latency",SUPPORTING
+R09,Academic,2017,"Serverless Computing: Economic and Architectural Impact","ESEC/FSE 2017","Serverless economics","Economic and architectural consequences of usage-based serverless computing",CORE
+R10,Academic,2023,"Fine-Grained Performance and Cost Modeling and Optimization for FaaS Applications","IEEE TPDS","Performance-cost modeling","Performance/cost trade-offs and FaaS cost modeling",CORE
+R11,Academic,2018,"An Investigation of the Impact of Language Runtime on the Performance and Cost of Serverless Functions","IEEE/ACM UCC Companion","Runtime performance","Runtime; execution latency; performance and cost",SUPPORTING
+R12,Academic,2022,"Serverless Computing for NFV: Is it Worth it? A Performance Comparison Analysis","IEEE PerCom Workshops","Serverless-serverful comparison","Evidence that architecture suitability depends on workload behavior",SUPPORTING
+R13,Academic,2013,"The Tail at Scale","Communications of the ACM","Tail latency","Rationale for reporting P95 and P99 rather than average latency alone",CORE
+D01,AWS Documentation,2026,"Understanding Lambda function scaling","AWS Lambda Documentation","Lambda scaling","Concurrency; throttling; account-specific quota interpretation",CORE
+D02,AWS Documentation,2026,"Understanding the Lambda execution environment lifecycle","AWS Lambda Documentation","Cold starts","Cold versus warm execution environment behavior",CORE
+D03,AWS Documentation,2026,"AWS Lambda Pricing","AWS","Lambda cost","Requests and GB-second pricing methodology",CORE
+D04,AWS Documentation,2026,"Purchasing On-Demand Instances for Amazon EC2","Amazon EC2 Documentation","EC2 cost model","Provisioned VM billing and On-Demand model",CORE
+D05,AWS Documentation,2026,"Key concepts for burstable performance instances","Amazon EC2 Documentation","T3 behavior","t3.small CPU-credit and baseline/burst behavior",CORE
+D06,AWS Documentation,2026,"Amazon API Gateway Pricing","AWS","API cost","HTTP API request pricing methodology",CORE

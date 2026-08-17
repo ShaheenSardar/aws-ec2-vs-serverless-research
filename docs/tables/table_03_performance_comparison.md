@@ -1,0 +1,12 @@
+## Table 3. Performance Comparison
+
+| Workload | EC2 mean latency (ms) | Serverless mean latency (ms) | Latency Δ | EC2 P95 (ms) | Serverless P95 (ms) | EC2 P99 (ms) | Serverless P99 (ms) | EC2 throughput (req/s) | Serverless throughput (req/s) | Throughput Δ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| W01 | 123.19 | 126.04 | +2.3% | 196.67 | 163.33 | 390.00 | 363.33 | 10.10 | 10.05 | -0.4% |
+| W02 | 200.09 | 174.43 | -12.8% | 730.00 | 426.67 | 1326.67 | 733.33 | 26.70 | 27.59 | +3.3% |
+| W03 | 341.52 | 325.82 | -4.6% | 720.00 | 570.00 | 1380.00 | 1276.67 | 43.72 | 40.00 | -8.5% |
+| W04 | 225.00 | 152.77 | -32.1% | 400.00 | 300.00 | 563.33 | 513.33 | 51.78 | 59.26 | +14.5% |
+| W05 | 290.49 | 168.64 | -41.9% | 396.67 | 340.00 | 723.33 | 676.67 | 44.04 | 57.39 | +30.3% |
+| W06 | 572.17 | 544.83 | -4.8% | 996.67 | 1566.67 | 2373.33 | 4233.33 | 20.64 | 21.84 | +5.8% |
+
+*Note: Values are descriptive means across three accepted formal repetitions. Δ is Serverless relative to EC2.*

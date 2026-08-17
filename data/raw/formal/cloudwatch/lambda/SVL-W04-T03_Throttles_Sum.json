@@ -1,0 +1,10 @@
+﻿{
+    "Label": "Throttles",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:34:00+05:00",
+            "Sum": 13.0,
+            "Unit": "Count"
+        }
+    ]
+}

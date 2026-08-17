@@ -1,0 +1,30 @@
+﻿{
+    "Label": "NetworkOut",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:30:00+05:00",
+            "Sum": 209883.0,
+            "Unit": "Bytes"
+        },
+        {
+            "Timestamp": "2026-08-16T22:31:00+05:00",
+            "Sum": 110154.0,
+            "Unit": "Bytes"
+        },
+        {
+            "Timestamp": "2026-08-16T22:27:00+05:00",
+            "Sum": 865471.0,
+            "Unit": "Bytes"
+        },
+        {
+            "Timestamp": "2026-08-16T22:29:00+05:00",
+            "Sum": 929765.0,
+            "Unit": "Bytes"
+        },
+        {
+            "Timestamp": "2026-08-16T22:28:00+05:00",
+            "Sum": 826917.0,
+            "Unit": "Bytes"
+        }
+    ]
+}

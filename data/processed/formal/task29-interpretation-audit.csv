@@ -1,0 +1,10 @@
+check,expected,actual,status
+formal_trials,36,36,PASS
+formal_summary_groups,12,12,PASS
+architecture_comparisons,6,6,PASS
+workload_interpretations,6,6,PASS
+resource_interpretations,6,6,PASS
+pilot_trials_used,0,0,PASS
+trials_per_condition,3,3,PASS
+account_quota_separated_from_lambda_limit,YES,YES,PASS
+inferential_significance_claims,0,0,PASS

@@ -1,0 +1,10 @@
+﻿{
+    "Label": "Latency",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:18:00+05:00",
+            "Average": 31.83153078202995,
+            "Unit": "Milliseconds"
+        }
+    ]
+}

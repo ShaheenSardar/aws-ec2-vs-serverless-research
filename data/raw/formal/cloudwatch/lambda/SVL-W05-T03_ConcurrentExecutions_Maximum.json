@@ -1,0 +1,10 @@
+﻿{
+    "Label": "ConcurrentExecutions",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:18:00+05:00",
+            "Maximum": 10.0,
+            "Unit": "Count"
+        }
+    ]
+}

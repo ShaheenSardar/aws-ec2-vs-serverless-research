@@ -1,0 +1,19 @@
+﻿[2026-08-16 21:06:18,139] DESKTOP-GBBGRE4/INFO/locust.main: Starting Locust 2.46.3
+[2026-08-16 21:06:18,140] DESKTOP-GBBGRE4/INFO/locust.main: Run time limit set to 60 seconds
+[2026-08-16 21:06:18,140] DESKTOP-GBBGRE4/INFO/locust.runners: Ramping to 15 users at a rate of 3.00 per second
+[2026-08-16 21:06:22,170] DESKTOP-GBBGRE4/INFO/locust.runners: All users spawned: {"ResearchUser": 15} (15 total users)
+[2026-08-16 21:07:17,511] DESKTOP-GBBGRE4/INFO/locust.main: --run-time limit reached, shutting down
+[2026-08-16 21:07:17,711] DESKTOP-GBBGRE4/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      /compute                                                                        1276     0(0.00%) |    322      96    3665    130 |   21.42        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                      1276     0(0.00%) |    322      96    3665    130 |   21.42        0.00
+System.Management.Automation.RemoteException
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      /compute                                                                              130    150    180    220    530   1600   2900   3100   3700   3700   3700   1276
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                            130    150    180    220    530   1600   2900   3100   3700   3700   3700   1276
+System.Management.Automation.RemoteException

@@ -1,0 +1,30 @@
+﻿{
+    "Label": "Invocations",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:44:00+05:00",
+            "Sum": 1864.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:43:00+05:00",
+            "Sum": 1109.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:42:00+05:00",
+            "Sum": 1314.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:41:00+05:00",
+            "Sum": 1333.0,
+            "Unit": "Count"
+        },
+        {
+            "Timestamp": "2026-08-16T22:45:00+05:00",
+            "Sum": 964.0,
+            "Unit": "Count"
+        }
+    ]
+}

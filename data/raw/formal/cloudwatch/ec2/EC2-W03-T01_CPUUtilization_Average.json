@@ -1,0 +1,10 @@
+﻿{
+    "Label": "CPUUtilization",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:14:00+05:00",
+            "Average": 38.66666666666667,
+            "Unit": "Percent"
+        }
+    ]
+}

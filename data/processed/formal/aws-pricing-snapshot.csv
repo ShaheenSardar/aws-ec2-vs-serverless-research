@@ -1,0 +1,7 @@
+﻿"component","rate_usd","unit","usage_type","region","effective_date","source"
+"EC2 t3.small Linux","0.0224000000","Hrs","APS3-BoxUsage:t3.small","ap-south-1","2026-08-01T00:00:00Z","AWS Price List API"
+"EBS gp3 storage","0.0912000000","GB-Mo","APS3-EBS:VolumeUsage.gp3","ap-south-1","2026-08-01T00:00:00Z","AWS Price List API"
+"Lambda standard requests","0.0000002000","Request","APS3-Request","ap-south-1","2026-08-01T00:00:00Z","AWS Price List API"
+"Lambda standard x86 duration","0.0000166667","Lambda-GB-Second","APS3-Lambda-GB-Second","ap-south-1","2026-08-01T00:00:00Z","AWS Price List API"
+"API Gateway HTTP API requests","0.0000010500","Requests","APS3-ApiGatewayHttpRequest","ap-south-1","2025-11-01T00:00:00Z","AWS Price List API"
+"Public IPv4 in-use","0.005","Hrs","PublicIPv4:InUseAddress","ap-south-1","current","AWS VPC pricing"

@@ -1,0 +1,10 @@
+﻿{
+    "Label": "IntegrationLatency",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:18:00+05:00",
+            "Average": 30.886439267886857,
+            "Unit": "Milliseconds"
+        }
+    ]
+}

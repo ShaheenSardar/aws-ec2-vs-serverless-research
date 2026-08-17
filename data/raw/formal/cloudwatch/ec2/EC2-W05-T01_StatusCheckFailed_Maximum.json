@@ -1,0 +1,10 @@
+﻿{
+    "Label": "StatusCheckFailed",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T21:43:00+05:00",
+            "Maximum": 0.0,
+            "Unit": "Count"
+        }
+    ]
+}

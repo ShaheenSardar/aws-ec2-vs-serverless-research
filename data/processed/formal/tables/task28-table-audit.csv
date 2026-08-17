@@ -1,0 +1,12 @@
+check,expected,actual,status
+formal_trials,36,36,PASS
+pilot_trials_used,0,0,PASS
+table_1_rows,14,14,PASS
+table_2_workloads,6,6,PASS
+table_3_performance_rows,6,6,PASS
+table_4_reliability_rows,6,6,PASS
+table_5_cost_rows,6,6,PASS
+table_6_variability_rows,12,12,PASS
+workload_architecture_groups,12,12,PASS
+architecture_comparisons,6,6,PASS
+remaining_to_be_measured,0,0,PASS

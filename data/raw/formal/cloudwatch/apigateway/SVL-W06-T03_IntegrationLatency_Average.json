@@ -1,0 +1,30 @@
+﻿{
+    "Label": "IntegrationLatency",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:56:00+05:00",
+            "Average": 30.813542688910697,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:55:00+05:00",
+            "Average": 31.015828677839853,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:58:00+05:00",
+            "Average": 31.22701949860724,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:54:00+05:00",
+            "Average": 32.13813953488372,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:57:00+05:00",
+            "Average": 30.503886925795054,
+            "Unit": "Milliseconds"
+        }
+    ]
+}

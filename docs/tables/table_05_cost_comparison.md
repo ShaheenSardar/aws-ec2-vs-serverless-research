@@ -1,0 +1,12 @@
+## Table 5. Estimated Cost Comparison
+
+| Workload | EC2 estimated cost / trial (USD) | Serverless estimated cost / trial (USD) | EC2 cost / 1,000 success (USD) | Serverless cost / 1,000 success (USD) | Serverless vs EC2 cost Δ | Serverless / EC2 cost ratio |
+| --- | --- | --- | --- | --- | --- | --- |
+| W01 | 0.00047356 | 0.00087629 | 0.00080447 | 0.00148451 | +84.5% | 1.845 |
+| W02 | 0.00047356 | 0.00205757 | 0.00031057 | 0.00129150 | +315.9% | 4.159 |
+| W03 | 0.00047356 | 0.00352736 | 0.00019401 | 0.00178594 | +820.5% | 9.205 |
+| W04 | 0.00047356 | 0.00512335 | 0.00015402 | 0.00146294 | +849.8% | 9.498 |
+| W05 | 0.00284133 | 0.00427440 | 0.00122208 | 0.00129720 | +6.1% | 1.061 |
+| W06 | 0.00236778 | 0.01199757 | 0.00046144 | 0.00169234 | +266.8% | 3.668 |
+
+*Note: Costs use the frozen Task 25 AWS list-price methodology; Free Tier, credits and discounts are excluded.*

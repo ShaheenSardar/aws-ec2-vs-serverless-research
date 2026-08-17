@@ -1,0 +1,21 @@
+check,expected,actual,status,note
+01_major_sections,9,9,PASS,
+02_figure_numbering,1-7,"1,2,3,4,5,6,7",PASS,
+03_table_numbering,1-6,"1,2,3,4,5,6",PASS,
+04_reference_numbering,1-15,"1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",PASS,
+05_citations_valid,"all citations in [1,15]","bad=[]; cited=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",PASS,
+06_all_references_cited,0,0,PASS,uncited=[]
+07_faas_defined_before_use,YES,YES,PASS,
+08_units_consistent,0,0,PASS,problems=[]
+09_percentage_point_terminology,0,0,PASS,bad=[]
+10_no_generation_placeholders,0,0,PASS,hits=[]
+11_no_ec2_docker_contradiction,NO,NO,PASS,
+12_lambda_quota_wording,"disclosed, not generalized",section=True; bad_claims=[],PASS,
+13_closed_loop_terminology,disclosed,disclosed,PASS,
+14_cost_terminology,all required,missing=[],PASS,
+15_n3_statistical_caution,disclosed,disclosed,PASS,
+16_w05_cold_start_caution,disclosed,disclosed,PASS,
+17_abstract_result_consistency,0,0,PASS,missing=[]
+18_conclusion_consistency,0,0,PASS,missing=[]
+19_numerical_tokens_preserved,767,767,PASS,
+20_title_keywords_consistency,consistent,consistent,PASS,

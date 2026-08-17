@@ -1,0 +1,28 @@
+﻿{
+    "Metrics": [
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "research-serverless-compute"
+                }
+            ]
+        },
+        {
+            "Namespace": "AWS/Lambda",
+            "MetricName": "Invocations",
+            "Dimensions": [
+                {
+                    "Name": "FunctionName",
+                    "Value": "research-serverless-compute"
+                },
+                {
+                    "Name": "Resource",
+                    "Value": "research-serverless-compute"
+                }
+            ]
+        }
+    ]
+}

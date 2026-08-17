@@ -1,0 +1,7 @@
+﻿"check","expected","actual","status"
+"formal_trial_rows","36","36","PASS"
+"workload_architecture_groups","12","12","PASS"
+"groups_with_three_trials","12","12","PASS"
+"architecture_comparisons","6","6","PASS"
+"summary_missing_values","0","0","PASS"
+"comparison_missing_values","0","0","PASS"

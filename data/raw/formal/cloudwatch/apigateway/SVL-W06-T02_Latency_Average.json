@@ -1,0 +1,30 @@
+﻿{
+    "Label": "Latency",
+    "Datapoints": [
+        {
+            "Timestamp": "2026-08-16T22:47:00+05:00",
+            "Average": 31.47192513368984,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:46:00+05:00",
+            "Average": 32.69613259668508,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:50:00+05:00",
+            "Average": 32.749819233550255,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:48:00+05:00",
+            "Average": 31.345,
+            "Unit": "Milliseconds"
+        },
+        {
+            "Timestamp": "2026-08-16T22:49:00+05:00",
+            "Average": 32.19050480769231,
+            "Unit": "Milliseconds"
+        }
+    ]
+}
